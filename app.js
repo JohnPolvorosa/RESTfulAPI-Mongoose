@@ -18,7 +18,7 @@ mongoose.connect(mongoLocal, {
     useNewUrlParser: true,  useUnifiedTopology: true, useFindAndModify: false
 });
 
-// Initialize Model
+// Initialize Model, exported from models folder
 const Article = require("./models/Wiki");
 
 app.set('view engine', 'ejs');
